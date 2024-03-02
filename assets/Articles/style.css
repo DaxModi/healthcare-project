@@ -1,0 +1,78 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f0e6ff, #c9f7ff);
+}
+
+header {
+    background-color: #B44DFC;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 0;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.nav-links {
+    margin-right: 74px;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 42px;
+    font-weight: 500;
+}
+
+main {
+    padding: 80px 20px 20px;
+}
+
+.question-answer {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.question-answer h2{
+    color: #B44DFC;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.question-answer p {
+    font-size: 20px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.question-answer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.question-answer li {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
