@@ -26,7 +26,6 @@ JS
 
 ## Features
 
-- Fully resposive
 - App Available
 - Fullscreen mode
 - Cross platform
